@@ -19,7 +19,8 @@ docker rm -vf $(docker ps -a -q)
 ### Command to start:
 docker-compose up
 
-### Command to build: docker-compose build
+### Command to build: 
+docker-compose build
 
 ### Command to remove all images:
 docker rmi -f $(docker images -a -q)
