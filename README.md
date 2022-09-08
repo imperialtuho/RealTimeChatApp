@@ -7,7 +7,6 @@ Realtime Chat App (NestJS &amp; Angular with Socket.io)
 docker-compose up
 
 # Tipps & Tricks
-If you follow the videos you something have to delete the images & containers and then start everything again.
 
 ### Command to remove all images:
 docker rmi -f $(docker images -a -q)
